@@ -40,9 +40,10 @@ cert_passphrase = 'xxOzP0PWu21L4a78W6DB'
 client_secret = 'MlLYG0kPTrjYhEEbCuLgYDKOKusHfrZlSiGE0YmhRIj8PD1qYJnV6yLQA-jFt8mj4p-pzsQONCfGMI_bLLnFgg'
 client_id = '1c60eb45-3801-47ab-8b4e-fe2c4d5a8da6'
 redirect_uri = 'http://localhost'
+scope = 'profile openid'
 
 login_url = 'https://federation.basf.com/nidp/app/login?id=CYT'
-authz_url = f'https://federation-qa.basf.com/nidp/oauth/nam/authz?client_id={client_id}&redirect_uri={redirect_uri}&scope=profile%clientid'
+authz_url = f'https://federation-qa.basf.com/nidp/oauth/nam/authz?client_id={client_id}&redirect_uri={redirect_uri}&scope={scope}'
 token_url = 'https://federation-qa.basf.com/nidp/oauth/nam/token'
 
 try:
